@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body id="body" class="bg3">
+    <header class="header bg3 scrolled" id="header">
+      <a href="#">
+        <h4 class="t0">IOFA</h4>
+      </a>
+      <div class="nav-container bg3 " id="nav-container">
+        <div class="dflex w-100 djcsb p-4 d-md-none">
+          <a href="#">
+            <h4 class="t0">IOFA</h4>
+          </a>
+          <i id="nav-x" class=" fas fa-close d-block p-2 dbor15 t1" onclick="
+            DOM.remState('nav-container','open');
+            DOM.remState('body','doverh');
+            "></i>
+        </div>
+        <div class="my-4 d-md-none"></div>
+        <nav class="nav-links px-3 px-md-0">
+          <a href="index.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">HOME</a>
+          <a href="index.html#about-sect" class="display-block app-nav-link mx-1 mb-2 mb-md-0">ABOUT</a>
+          <a href="top_three.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">TOP THREE</a>
+          <a href="#" class="display-block app-btn shadow mx-1 px-3 py-2 bg1 t3 text-center">LOGIN</a>
+        </nav>
+      </div>
+      <i id="nav-x" class="d-md-none fas fa-bars d-block p-2 dbor15 t1" onclick="
+                DOM.addState('nav-container','open');
+            DOM.addState('body','doverh');
+                "></i>
+    </header>
+    <main class="main pt-5 mt-4">
+      <section class="dashboard-home">
+        <div class="container mb-5">
+            <div class="col-12 dflex dalc">
+              <img src="img/about.jpg" alt="..." height="50" width="50" class="shadow rounded-circle me-3">
+              <p class="m-0">John Doe</p>
+            </div>
+            <a href="student_on_going_competition.html" class="dtdn dblock">
+            <div class="mt-3 p-2 p-md-4 col-12 dbor30 dflex flex-wrap doverh shadow py-2 bg03 dposr">
+              <img src="img/about.jpg" alt="..." class="w-100 h-100 dposa dt0 dl0 dz-1">
+              <div class="col-12 col-md-5 t3">
+                <b>On-Going Competion Details</b>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aperiam illo laborum.
+                </p>
+                <div class="dflex djcsb">
+                  <div class="dflex dbor15 bg03 p-2 flex-column justify-content-center align-items-center">
+                    <b>10/12/2022</b>
+                    <p class="t2">start date</p>
+                  </div>
+                  <div class="dflex dbor15 bg03 p-2 flex-column justify-content-center align-items-center">
+                    <b>29/12/2022</b>
+                    <p class="t2">end date</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <div class="mt-4 col-12 dflex flex-wrap djcc">
+            <a href="user_dashboard_upload.html" class="col-6 dblock dtdn col-md-3 px-1 px-md-2 px-lg-3 my-2 my-md-0  ">
+              <div class="dflex dfdc djcc dalc dbor15 bg02 py-3 shadow dbtn1"><i class="fs-1 fas fa-image t3"></i>
+                <span class="text-center t3">UPLOAD PAINTING</span></div>
+              </a>
+              <a href="view_exhibition.html" class="col-6 dblock dtdn col-md-3 px-1 px-md-2 px-lg-3 my-2 my-md-0  ">
+                <div class="dflex dfdc djcc dalc dbor15 bg02 py-3 shadow dbtn1"><i class="fs-1 fas fa-image t3"></i>
+                  <span class="text-center t3">EXHIBITION</span>
+                </div>
+              </a>
+              <div class="col col-md-6"></div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+</body>
+</html>

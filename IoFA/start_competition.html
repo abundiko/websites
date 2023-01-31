@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body id="body" class="bg3">
+  <header class="header bg3 scrolled" id="header">
+    <a href="#">
+      <h4 class="t0">IOFA</h4>
+    </a>
+    <div class="nav-container bg3 " id="nav-container">
+      <div class="dflex w-100 djcsb p-4 d-md-none">
+        <a href="#">
+          <h4 class="t0">IOFA</h4>
+        </a>
+        <i id="nav-x" class=" fas fa-close d-block p-2 dbor15 t1" onclick="
+            DOM.remState('nav-container','open');
+            DOM.remState('body','doverh');
+            "></i>
+      </div>
+      <div class="my-4 d-md-none"></div>
+      <nav class="nav-links px-3 px-md-0">
+        <a href="index.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">HOME</a>
+        <a href="index.html#about-sect" class="display-block app-nav-link mx-1 mb-2 mb-md-0">ABOUT</a>
+        <a href="top_three.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">TOP THREE</a>
+        <a href="#" class="display-block app-btn shadow mx-1 px-3 py-2 bg1 t3 text-center">LOGIN</a>
+      </nav>
+    </div>
+    <i id="nav-x" class="d-md-none fas fa-bars d-block p-2 dbor15 t1" onclick="
+                DOM.addState('nav-container','open');
+            DOM.addState('body','doverh');
+                "></i>
+  </header>
+  <main class="main pt-5 mt-4">
+    <section class="dashboard-upload">
+      <div class="container mb-5">
+        <div class="col-12 dflex dalc">
+          <div class="w-100 dflex dalc">
+            <i class="fas fa-chevron-left px-3" onclick="history.back()"></i>
+            <img src="img/about.jpg" alt="..." height="50" width="50" class="shadow rounded-circle me-3">
+            <p class="m-0">John Doe</p>
+          </div>
+          <b class="dblock px-2 bg-success t3 dbor10 dfont-xs">staff</b>
+        </div>
+        <div class="row mt-4 align-items-center justify-content-center">
+<h5>Create Competition</h5>
+          <div class="dflex flex-wrap col-12 col-md-10 djcsb">
+            <div class="col-12 col-md-5 dflex flex-wrap mt-2">
+              <label for="">Competition Year</label>
+              <div class="p-1"></div>
+              <div class="p-1 p-md-3 w-100 bg05 rounded dborn doutn dflex">
+                <input type="number" min="2000" name="" id="" placeholder="enter year"
+                  class=" bg-transparent h-100 px-2 w-100 rounded dborn doutn">
+              </div>
+            </div>
+            <div class="col-12 col-md-5 dflex flex-wrap mt-2">
+              <label for="">Select Image</label>
+              <div class="p-1"></div>
+              <div class="p-1 p-md-3 w-100 bg05 rounded dborn doutn dflex">
+                <input type="file" name="" id="" placeholder="enter student's name"
+                  class=" bg-transparent h-100 px-2 w-100 rounded dborn doutn">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-10 dflex flex-wrap mt-2">
+            <label for="#poem">Competition Remarks</label>
+            <div class="p-1"></div>
+            <div class="p-1 p-md-3 w-100 bg05 rounded dborn doutn dflex">
+              <textarea rows="4" type="password" name="" id="" placeholder="enter competition remarks and conditions"
+                class=" bg-transparent h-100 px-2 w-100 rounded dborn doutn"></textarea>
+            </div>
+          </div>
+          <div class="dflex flex-wrap col-12 col-md-10 djcsb">
+            <div class="col-12 col-md-5 dflex flex-wrap mt-2">
+              <label for="">Start Date</label>
+              <div class="p-1"></div>
+              <div class="p-1 p-md-3 w-100 bg05 rounded dborn doutn dflex">
+                <input type="date" min="2000" name="" id="" placeholder=""
+                  class=" bg-transparent h-100 px-2 w-100 rounded dborn doutn">
+              </div>
+            </div>
+            <div class="col-12 col-md-5 dflex flex-wrap mt-2">
+              <label for="">End Date</label>
+              <div class="p-1"></div>
+              <div class="p-1 p-md-3 w-100 bg05 rounded dborn doutn dflex">
+                <input type="date" name="" id="" placeholder="enter student's name"
+                  class=" bg-transparent h-100 px-2 w-100 rounded dborn doutn">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-10 dflex flex-wrap mt-2">
+            <b>Competition Awards</b>
+            </div>
+          <div class="col-12 col-md-10 dflex flex-wrap mt-2">
+            <label for="#poem">1<sup>st</sup> Prize</label>
+            <div class="p-1"></div>
+            <div class="p-1 p-md-3 w-100 bg05 rounded dborn doutn dflex">
+              <textarea rows="2" type="password" name="" id="" placeholder="enter first prize"
+                class=" bg-transparent h-100 px-2 w-100 rounded dborn doutn"></textarea>
+            </div>
+          </div>
+          <div class="col-12 col-md-10 dflex flex-wrap mt-2">
+            <label for="#poem">2<sup>nd</sup> Prize</label>
+            <div class="p-1"></div>
+            <div class="p-1 p-md-3 w-100 bg05 rounded dborn doutn dflex">
+              <textarea rows="2" type="password" name="" id="" placeholder="enter second prize"
+                class=" bg-transparent h-100 px-2 w-100 rounded dborn doutn"></textarea>
+            </div>
+          </div>
+          <div class="col-12 col-md-10 dflex flex-wrap mt-2">
+            <label for="#poem">3<sup>rd</sup> Prize</label>
+            <div class="p-1"></div>
+            <div class="p-1 p-md-3 w-100 bg05 rounded dborn doutn dflex">
+              <textarea rows="2" type="password" name="" id="" placeholder="enter third prize"
+                class=" bg-transparent h-100 px-2 w-100 rounded dborn doutn"></textarea>
+            </div>
+          </div>
+          <div class="dflex djcc w-100 my-3"><a href="" class="app-btn shadow bg1 dtdn dblock px-3 py-2 t3">REGISTER</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
