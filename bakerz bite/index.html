@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakerz Bite</title>
+  <link rel="stylesheet" href="css/diko.css">
+  <link rel="stylesheet" href="css/diko.animate.css">
+  <link rel="stylesheet" href="css/diko.utils.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body id="body" class="index">
+  <header class="dheader shadow bgf t4">
+    <a href="index.html"><img src="img/logo.png" width="100">
+    </a>
+    <div class="nav-container " id="nav-container">
+      <div class="dflex w-100 djcsb p-4 d-md-none">
+        <img src="img/logo.png" width="100">
+        <i id=" nav-x" class=" fas fa-close d-block p-2 dbor15 t1" onclick="
+                DOM.remState('nav-container','open');
+                DOM.remState('body','doverh');
+                "></i>
+      </div>
+      <div class="my-4 d-md-none"></div>
+      <nav class="nav-links px-3 px-md-0 ">
+        <a href="index.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0 ">HOME</a>
+        <a href="about.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">ABOUT US</a>
+        <a href="gallery.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">GALLERY</a>
+        <a href="contact.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">CONTACT</a>
+        <a href="faq.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">FAQ</a>
+      </nav>
+    </div>
+    <i id="nav-x" class="d-md-none fas fa-bars d-block p-2 dbor15 t1" onclick="
+                    DOM.addState('nav-container','open');
+                DOM.addState('body','doverh');
+                    "></i>
+  </header>
+  <section class="hero dposr mt-5 w-100 doverh">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 p-0 col-md-6 h-100 doverh dflex">
+          <div style="--x:1;" class="hero-animate col-4 px-1"><img loading="lazy" src="img/cake1.jpg" alt=""
+              class="img-fluid w-100 my-1"><img loading="lazy" src="img/cake2.jpg" alt=""
+              class="img-fluid w-100 my-1"><img loading="lazy" src="img/cake3.jpg" alt=""
+              class="img-fluid w-100 my-1"><img src="img/cake4.jpg" alt="" class="img-fluid w-100 my-1"><img
+              loading="lazy" src="img/cake1.jpg" alt="" class="img-fluid w-100 my-1">
+          </div>
+          <div style="--x:2;" class="hero-animate col-4 px-1"><img loading="lazy" src="img/pie1.jpg" alt=""
+              class="img-fluid w-100 my-1"><img loading="lazy" src="img/pie2.jpg" alt=""
+              class="img-fluid w-100 my-1"><img loading="lazy" src="img/pie3.jpg" alt=""
+              class="img-fluid w-100 my-1"><img src="img/pie4jpg" alt="" class="img-fluid w-100 my-1"><img
+              loading="lazy" src="img/pie1jpg" alt="" class="img-fluid w-100 my-1">
+          </div>
+          <div style="--x:3;" class="hero-animate col-4 px-1"><img loading="lazy" src="img/cookie1.jpg" alt=""
+              class="img-fluid w-100 my-1"><img loading="lazy" src="img/cookie2.jpg" alt=""
+              class="img-fluid w-100 my-1"><img loading="lazy" src="img/cookie3.jpg" alt=""
+              class="img-fluid w-100 my-1"><img src="img/cookie4.jpg" alt="" class="img-fluid w-100 my-1"><img
+              loading="lazy" src="img/cookie1.jpg" alt="" class="img-fluid w-100 my-1">
+          </div>
+        </div>
+        <div class="col-12 p-0 col-md-6 h-100 doverh dflex">
+          <div style="--x:4;" class="hero-animate col-4 px-1"><img loading="lazy" src="img/pastry1.jpg" alt=""
+              class="img-fluid w-100 my-1"><img loading="lazy" src="img/pastry2.jpg" alt=""
+              class="img-fluid w-100 my-1"><img loading="lazy" src="img/pastry3.jpg" alt=""
+              class="img-fluid w-100 my-1"><img src="img/pastry4.jpg" alt="" class="img-fluid w-100 my-1"><img
+              loading="lazy" src="img/pastry1.jpg" alt="" class="img-fluid w-100 my-1">
+          </div>
+          <div style="--x:5;" class="hero-animate col-4 px-1"><img loading="lazy" src="img/cake2.jpg" alt=""
+              class="img-fluid w-100 my-1"><img loading="lazy" src="img/cake4.jpg" alt=""
+              class="img-fluid w-100 my-1"><img loading="lazy" src="img/pie1.jpg" alt=""
+              class="img-fluid w-100 my-1"><img src="img/pie2jpg" alt="" class="img-fluid w-100 my-1"><img
+              loading="lazy" src="img/cake3jpg" alt="" class="img-fluid w-100 my-1">
+          </div>
+          <div style="--x:6;" class="hero-animate col-4 px-1"><img loading="lazy" src="img/cookie2.jpg" alt=""
+              class="img-fluid w-100 my-1"><img loading="lazy" src="img/cake3.jpg" alt=""
+              class="img-fluid w-100 my-1"><img loading="lazy" src="img/cookie4.jpg" alt=""
+              class="img-fluid w-100 my-1"><img src="img/pastry1.jpg" alt="" class="img-fluid w-100 my-1"><img
+              loading="lazy" src="img/cake4.jpg" alt="" class="img-fluid w-100 my-1">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid dposa dz1 w-100 h-100 bgf2 dt0 dl0">
+      <div class="container h-100 ">
+        <div class="row h-100 dalc">
+          <div class="col-11 col-md-7 fade-in-bottom">
+            <h1>Discover Tasty Baked goods Made for You</h1>
+            <p>
+              Bakerz bite has been producing baked goods since 1998 and have been doing it well. With over 250 million
+              satisfied customers we simply offer the best baked food you can find out there.
+            </p>
+            <a href="gallery.html" class="app-btn1">VIEW GALLERY &nbsp;&nbsp; <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="one py-5 djs-scroll fade-in-bottom" data-dos-offset="1.2">
+    <div class="container">
+      <div class="row">
+        <div class="dflex djcsb">
+          <h3>Baked For You</h3>
+          <a href="gallery.html" class="app-btn1">MORE &nbsp;&nbsp; <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <section class="dslider-container">
+          <button id="dslider-prev" class="dslider-btn bgf1"><i class="fas fa-chevron-left t1"></i></button>
+          <article class="dslider py-4">
+
+            <div class="dslider-item">
+              <div class="app-card shadow " data-type="cake" data-ingredients="salt,sugar,flour"
+                data-desc="Instead of standing by to slice dessert for each family member this Thanksgiving, serve these festive mini cheesecakes.">
+                <img src="img/cake1.jpg" alt="picture loading..." class="w-100">
+                <h4 class="text-center">Pumpkin Cheesecakes</h4>
+              </div>
+            </div>
+            <div class="dslider-item">
+              <div class="app-card shadow " data-type="cookie" data-ingredients="salt,sugar,flour"
+                data-desc=" Snickerdoodles are a type of drop cookie (any cookie that is formed by dropping spoonfuls of dough directly onto a baking sheet) that is coated in cinnamon and sugar">
+                <img src="img/cookie1.jpg" alt="picture loading..." class="w-100">
+                <h4 class="text-center">Snickerdoodles</h4>
+              </div>
+            </div>
+            <div class="dslider-item">
+              <div class="app-card shadow " data-type="pie" data-ingredients="salt,sugar,flour"
+                data-desc="Cream pies are filled with pastry cream—a cool, creamy, billowy custard that’s cooked completely on the stove and then spread into a fully baked pie crust before the whole thing goes in the refrigerator to chill">
+                <img src="img/pie1.jpg" alt="picture loading..." class="w-100">
+                <h4 class="text-center">Cream Pie</h4>
+              </div>
+            </div>
+            <div class="dslider-item">
+              <div class="app-card shadow " data-type="pastry" data-ingredients="salt,sugar,flour"
+                data-desc="Delicate and simple to make, flaky pastry is used for sweet or savory dishes that bake quickly, such as the common pie crust. With large pieces of butter mixed into the dough, flaky pastries are more easily made with a food processor or a specialized pastry blender.">
+                <img src="img/pastry1.jpg" alt="picture loading..." class="w-100">
+                <h4 class="text-center">Flaky Pastry</h4>
+              </div>
+            </div>
+            <div class="dslider-item">
+              <div class="app-card shadow " data-type="cake" data-ingredients="salt,sugar,flour"
+                data-desc="It wouldn't be Easter without carrot cake, and these pretty little Bundts are our new favorite way to serve it. Instead of decorating an intricate layer cake, all you have to do is drizzle our tangy glaze on top. ">
+                <img src="img/cake2.jpg" alt="picture loading..." class="w-100">
+                <h4 class="text-center">Bundt Cake</h4>
+              </div>
+            </div>
+            <div class="dslider-item">
+              <div class="app-card shadow " data-type="pastry" data-ingredients="salt,sugar,flour"
+                data-desc="Perfect for cooks who love to bake, shortcrust pastry is a stout dough used to make thicker pastries like tarts and cookies.">
+                <img src="img/pastry2.jpg" alt="picture loading..." class="w-100">
+                <h4 class="text-center">Shortcrust</h4>
+              </div>
+            </div>
+          </article>
+          <button id="dslider-next" class="dslider-btn bgf1"><i class="fas fa-chevron-right t1"></i></button>
+        </section>
+      </div>
+    </div>
+  </section>
+  <section class="two py-5 bg05">
+    <div class="container">
+      <div class="row">
+        <h3>What We Do</h3>
+        <p>We specialize in preparing the best baked goods for you</p>
+        <div class="col-6 col-md-3 home-product-card p-0 t3 doverh dposr">
+          <img src="img/cake1.jpg" alt="..." class="h-100 w-100 dobjfc">
+          <div class="bg03 dposa dt0 dl0 p-2 text-center dbtn dflex dfdc djcc dalc h-100 w-100 inner">
+            <h4><strong>Cakes</strong></h4>
+            <b>Delicious cakes for you</b>
+            <a href="gallery.html#cake" class="app-btn1" style="--btn-color:var(--t3)">VIEW MORE</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 home-product-card p-0 t3 doverh dposr">
+          <img src="img/cookie1.jpg" alt="..." class="h-100 w-100 dobjfc">
+          <div class="bg03 dposa dt0 dl0 p-2 text-center dbtn dflex dfdc djcc dalc h-100 w-100 inner">
+            <h4><strong>Cookies</strong></h4>
+            <b>Our cookies are the best you could ever want</b>
+            <a href="gallery.html#cookie" class="app-btn1" style="--btn-color:var(--t3)">VIEW MORE</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 home-product-card p-0 t3 doverh dposr">
+          <img src="img/pastry2.jpg" alt="..." class="h-100 w-100 dobjfc">
+          <div class="bg03 dposa dt0 dl0 p-2 text-center dbtn dflex dfdc djcc dalc h-100 w-100 inner">
+            <h4><strong>Pastries</strong></h4>
+            <b>Pasrties prepared with YOU in mind</b>
+            <a href="gallery.html#pastry" class="app-btn1" style="--btn-color:var(--t3)">VIEW MORE</a>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 home-product-card p-0 t3 doverh dposr">
+          <img src="img/pie1.jpg" alt="..." class="h-100 w-100 dobjfc">
+          <div class="bg03 dposa dt0 dl0 p-2 text-center dbtn dflex dfdc djcc dalc h-100 w-100 inner">
+            <h4><strong>Pies</strong></h4>
+            <b>Tasty pies, what more can youy desyire</b>
+            <a href="gallery.html#pie" class="app-btn1" style="--btn-color:var(--t3)">VIEW MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="three py-5">
+    <div class="container">
+      <div class="row dalc">
+
+        <div class="col-11 col-md-6 dflex dfdc h-100 djcc djs-scroll fade-in-bottom" data-dos-offset="1.2">
+          <h3>Merchandise with Bakerz Bite</h3>
+          <p>Get Our branded souvenir (mugs,tees,bags,caps and jugs)</p>
+        </div>
+        <div class="col-11 col-md-6 doverh p-0 djs-scroll fade-in-bottom" data-dos-offset="1.2">
+          <img src="img/merchandise.png" alt="..." class="h-100 w-100 dobjfc">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="app-card-pop dz2" id="app-card-pop">
+    <div class="pop-backgroung bg03 h-100 w-100"
+      onclick="DOM.remState('app-card-pop','open');DOM.remState('body','doverh')"></div>
+    <div class="bg3 shadow pop-main dmw300 dposa dt0 dl0 w-75 h-75 dtrcenter p-2 p-md-4">
+      <div class="col-12 dflex flex-wrap djcsa dalc h-100 dovera">
+        <img src="img/cake1.jpg" alt="picture of cake..." class="col-12 col-md-5">
+        <div class="col-12 col-md-6">
+          <h4>Sponge Cake</h4>
+          <p id="app-card-pop-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse amet soluta
+            doloribus nemo corrupti
+            officiis
+            facere maxime ratione molestiae neque?</p>
+          <p class="m-0">Ingredients</p>
+          <ul>
+            <li>Sugar</li>
+            <li>Sugar</li>
+            <li>Sugar</li>
+            <li>Sugar</li>
+            <li>Sugar</li>
+          </ul>
+          <div class="mt-1">
+            <p class="m-0">Rating</p>
+            <div class="drating-bar">
+              <i class="fas fa-star d-inline-block mx-1"></i><i class="fas fa-star d-inline-block mx-1"></i><i
+                class="fas fa-star d-inline-block mx-1"></i><i class="fas fa-star d-inline-block mx-1"></i><i
+                class="fas fa-star d-inline-block mx-1"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer bg01 t3 py-4">
+    <div class="container">
+      <div class="row djcsb">
+        <div class="col-12 col-md-5 dflex dfdc mb-3 mb-md-0">
+          <a href="index.html" class="dtdn t4"><img src="img/logo.png" width="150">
+          </a>
+          <p class="my-2">
+            <a href="tel:0000"><i class=" fas fa-phone d-inline-block mx-2"></i> &nbsp; +012-0054-571 </a><br>
+            <a href="contact.html#map"><i class=" fas fa-map-location d-inline-block mx-2"></i> &nbsp; 250 Mann str, LA
+            </a><br>
+
+          </p>
+          <div class="dflex">
+            <i class="fs-2 fab fa-facebook d-inline-block mx-2"></i>
+            <i class="fs-2 fab fa-twitter d-inline-block mx-2"></i>
+            <i class="fs-2 fab fa-linkedin d-inline-block mx-2"></i>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 dflex flex-wrap">
+          <div class="col dflex dfdc">
+            <b>Quick Links</b>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+          </div>
+          <div class="col dflex dfdc">
+            <b>Quick Links</b>
+            <a href="gallery.html#cake">Cake</a>
+            <a href="gallery.html#pastry">Pastries</a>
+            <a href="gallery.html#pie">Pies</a>
+            <a href="gallery.html#cookie">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="js/diko.js"></script>
+<script src="js/main.js"></script>
+
+</html>

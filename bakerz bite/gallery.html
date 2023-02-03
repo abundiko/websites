@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakerz Bite: Gallery, discover mouth watering baked goods</title>
+  <link rel="stylesheet" href="css/diko.css">
+  <link rel="stylesheet" href="css/diko.animate.css">
+  <link rel="stylesheet" href="css/diko.utils.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body id="body" class="gallery">
+  <header class="dheader shadow bgf t4">
+    <a href="index.html"><img src="img/logo.png" width="100">
+    </a>
+    <div class="nav-container " id="nav-container">
+      <div class="dflex w-100 djcsb p-4 d-md-none">
+        <img src="img/logo.png" width="100">
+        <i id=" nav-x" class=" fas fa-close d-block p-2 dbor15 t1" onclick="
+                DOM.remState('nav-container','open');
+                DOM.remState('body','doverh');
+                "></i>
+      </div>
+      <div class="my-4 d-md-none"></div>
+      <nav class="nav-links px-3 px-md-0 ">
+        <a href="index.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0 ">HOME</a>
+        <a href="about.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">ABOUT US</a>
+        <a href="gallery.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">GALLERY</a>
+        <a href="contact.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">CONTACT</a>
+        <a href="faq.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">FAQ</a>
+      </nav>
+    </div>
+    <i id="nav-x" class="d-md-none fas fa-bars d-block p-2 dbor15 t1" onclick="
+                    DOM.addState('nav-container','open');
+                DOM.addState('body','doverh');
+                    "></i>
+  </header>
+  <div class="py-4"></div>
+  <section class="top-bar bg3">
+    <div class="container py-2">
+      <div class="d-flex dovera">
+        <button data-filter="" class="px-1 px-md-3 py-1 py-md-2 filter-btn app-btn1 dbor15 mx-2 active">ALL</button>
+        <button data-filter="cake" class="px-1 px-md-3 py-1 py-md-2 filter-btn app-btn1 dbor15 mx-2">CAKES</button>
+        <button data-filter="pie" class="px-1 px-md-3 py-1 py-md-2 filter-btn app-btn1 dbor15 mx-2">PIES</button>
+        <button data-filter="pastry" class="px-1 px-md-3 py-1 py-md-2 filter-btn app-btn1 dbor15 mx-2">PASTRIES</button>
+        <button data-filter="cookie" class="px-1 px-md-3 py-1 py-md-2 filter-btn app-btn1 dbor15 mx-2">COOKIES</button>
+      </div>
+    </div>
+  </section>
+  <section class="one py-5">
+    <div class="container">
+      <div class="row justify-content-center justify-content-sm-start">
+        <h4><b></b></h4>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="cake" data-ingredients="salt,sugar,flour"
+            data-desc="Instead of standing by to slice dessert for each family member this Thanksgiving, serve these festive mini cheesecakes.">
+            <img src="img/cake1.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Pumpkin Cheesecakes</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="cookie" data-ingredients="salt,sugar,flour"
+            data-desc=" Snickerdoodles are a type of drop cookie (any cookie that is formed by dropping spoonfuls of dough directly onto a baking sheet) that is coated in cinnamon and sugar">
+            <img src="img/cookie1.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Snickerdoodles</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="pie" data-ingredients="salt,sugar,flour"
+            data-desc="Cream pies are filled with pastry cream—a cool, creamy, billowy custard that’s cooked completely on the stove and then spread into a fully baked pie crust before the whole thing goes in the refrigerator to chill">
+            <img src="img/pie1.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Cream Pie</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="pastry" data-ingredients="salt,sugar,flour"
+            data-desc="Delicate and simple to make, flaky pastry is used for sweet or savory dishes that bake quickly, such as the common pie crust. With large pieces of butter mixed into the dough, flaky pastries are more easily made with a food processor or a specialized pastry blender.">
+            <img src="img/pastry1.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Flaky Pastry</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="cake" data-ingredients="salt,sugar,flour"
+            data-desc="It wouldn't be Easter without carrot cake, and these pretty little Bundts are our new favorite way to serve it. Instead of decorating an intricate layer cake, all you have to do is drizzle our tangy glaze on top. ">
+            <img src="img/cake2.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Bundt Cake</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="cookie" data-ingredients="salt,sugar,flour"
+            data-desc=" Chocolate chip cookies are drop cookies that can be soft and doughy or crisp and crunchy depending on how long you cook them or what ingredients you use. ">
+            <img src="img/cookie2.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Chocolate Chip Cookies</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="pie" data-ingredients="salt,sugar,flour"
+            data-desc="Custard pies feature an egg-thickened filling that’s a bit firmer than pastry cream. A mixture of eggs, dairy, and sugar bakes until set within a single crust.">
+            <img src="img/pie2.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Custard Pie</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="pastry" data-ingredients="salt,sugar,flour"
+            data-desc="Perfect for cooks who love to bake, shortcrust pastry is a stout dough used to make thicker pastries like tarts and cookies.">
+            <img src="img/pastry2.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Shortcrust</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="pie" data-ingredients="salt,sugar,flour"
+            data-desc="This pastry is a tart (it’s open-faced), but it’s also kind of like a pie in that it has a flaky crust and usually features a fruit filling that cooks during baking.">
+            <img src="img/pie3.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Galette</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="pastry" data-ingredients="salt,sugar,flour"
+            data-desc="Although similar in texture to a flaky pastry, puff pastry differs significantly in how much time it takes to make. It is traditionally formed by rolling dough over a rectangular shape of cold butter in the lamination process.">
+            <img src="img/pastry3.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Puff Pastries</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="cookie" data-ingredients="salt,sugar,butter,flour"
+            data-desc="oatmeal raisin is another type of drop cookie. Its dough is oatmeal based and contains raisins and brown sugar. They're warm and comforting — a reminder of simpler times and grandma's house">
+            <img src="img/cookie3.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Oatmeal Raisin Cookies</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="cake" data-ingredients="salt,sugar,flour"
+            data-desc="With chopped pecans and toffee bits in the batter and homemade brown sugar icing on top, no one will know this decadent recipe starts with a box of cake mix. ">
+            <img src="img/cake3.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Praline Cake</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="pie" data-ingredients="salt,sugar,flour"
+            data-desc="These pies feature a lofty plume of whipped egg whites that adorns the filling like a fluffy, sweet cloud. The meringue, which we whip up in a stand mixer and then bake briefly on the pie to brown, usually tops a custard">
+            <img src="img/pie4.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Meringue Pie</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="pastry" data-ingredients="salt,sugar,flour,egg"
+            data-desc="Choux pastry, also sometimes called cream-filled pastry, has a crispy outer shell and a hollow interior to hold delicious sweet and savory fillings. Perhaps surprisingly, this light pastry dough begins with the addition of eggs. ">
+            <img src="img/pastry4.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Choux</h4>
+          </div>
+        </div>
+        <div class="col-11 col-sm-6 col-md-4 col-lg-3 col-xxl-2 p-2">
+          <div class="app-card shadow " data-type="cake" data-ingredients="salt,sugar,flour"
+            data-desc="Instead of classic cream cheese frosting, our Test Kitchen upped the ante with fluffy Mascarpone. For a holiday gathering, garnish these mini cakes with fresh whipped cream, berries, and mint. ">
+            <img src="img/cake4.jpg" alt="picture loading..." class="w-100">
+            <h4 class="text-center">Red Velvet Cakes</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="app-card-pop dz2" id="app-card-pop">
+    <div class="pop-backgroung bg03 h-100 w-100"
+      onclick="DOM.remState('app-card-pop','open');DOM.remState('body','doverh')"></div>
+    <div class="bg3 shadow pop-main dmw300 dposa dt0 dl0 w-75 h-75 dtrcenter p-2 p-md-4">
+      <div class="col-12 dflex flex-wrap djcsa dalc h-100 dovera">
+        <img src="img/cake1.jpg" alt="picture of cake..." class="col-12 col-md-5">
+        <div class="col-12 col-md-6">
+          <h4>Sponge Cake</h4>
+          <p id="app-card-pop-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse amet soluta
+            doloribus nemo corrupti
+            officiis
+            facere maxime ratione molestiae neque?</p>
+          <p class="m-0">Ingredients</p>
+          <ul>
+            <li>Sugar</li>
+            <li>Sugar</li>
+            <li>Sugar</li>
+            <li>Sugar</li>
+            <li>Sugar</li>
+          </ul>
+          <div class="mt-1">
+            <p class="m-0">Rating</p>
+            <div class="drating-bar">
+              <i class="fas fa-star d-inline-block mx-1"></i><i class="fas fa-star d-inline-block mx-1"></i><i
+                class="fas fa-star d-inline-block mx-1"></i><i class="fas fa-star d-inline-block mx-1"></i><i
+                class="fas fa-star d-inline-block mx-1"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer bg01 t3 py-4">
+    <div class="container">
+      <div class="row djcsb">
+        <div class="col-12 col-md-5 dflex dfdc mb-3 mb-md-0">
+          <a href="index.html" class="dtdn t4"><img src="img/logo.png" width="150">
+          </a>
+          <p class="my-2">
+            <a href="tel:0000"><i class=" fas fa-phone d-inline-block mx-2"></i> &nbsp; +012-0054-571 </a><br>
+            <a href="contact.html#map"><i class=" fas fa-map-location d-inline-block mx-2"></i> &nbsp; 250 Mann str, LA
+            </a><br>
+
+          </p>
+          <div class="dflex">
+            <i class="fs-2 fab fa-facebook d-inline-block mx-2"></i>
+            <i class="fs-2 fab fa-twitter d-inline-block mx-2"></i>
+            <i class="fs-2 fab fa-linkedin d-inline-block mx-2"></i>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 dflex flex-wrap">
+          <div class="col dflex dfdc">
+            <b>Quick Links</b>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+          </div>
+          <div class="col dflex dfdc">
+            <b>Quick Links</b>
+            <a href="gallery.html#cake">Cake</a>
+            <a href="gallery.html#pastry">Pastries</a>
+            <a href="gallery.html#pie">Pies</a>
+            <a href="gallery.html#cookie">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="js/diko.js"></script>
+<script src="js/main.js"></script>
+
+</html>
