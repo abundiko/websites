@@ -1,0 +1,40 @@
+.hero{
+  height: 90vh;
+}
+.hero img{
+  height: clamp(250px, calc((40vw + 50vh) / 2), 350px);
+  width: clamp(250px, calc((40vw + 50vh) / 2), 350px);
+}
+.hero .hero-main{
+  padding-top: 20vh;
+}
+.app-btn1{
+  border: 2px solid var(--btn-color);
+  padding: 8px 1.2em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, var(--c1), var(--c2));
+}
+.app-btn1.active{
+  color: var(--c3);
+  background-color: var(--btn-color);
+}
+.app-btn1:hover{
+  transform: translateY(-5px);
+  color: inherit !important;
+}
+.app-btn1.active:hover{
+  color: var(--c3);
+}
+.recipe-card{
+  height: min(40vh, 250px);
+}
+.recipe-card:hover{
+  transform: scale(1.05);
+}
+.recipe-card .recipe-content{
+  background-image: linear-gradient(to bottom, #00000000, #000);
+}

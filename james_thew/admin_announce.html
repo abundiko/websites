@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>James Thew: Admin, create an announcement</title>
+  <link rel="stylesheet" href="css/diko.css">
+  <link rel="stylesheet" href="css/diko.animate.css">
+  <link rel="stylesheet" href="css/diko.utils.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body id="body" class="recipe">
+  <header class="dheader shadow t3 bg04 dbblur10">
+    <a href="index.html"><img src="img/logo.png" width="50">
+    </a>
+    <div class="nav-container " id="nav-container">
+      <div class="dflex w-100 djcsb p-4 d-md-none">
+        <img src="img/logo.png" width="50">
+        <i id=" nav-x" class=" fas fa-close d-block p-2 dbor15 t1" onclick="
+                DOM.remState('nav-container','open');
+                DOM.remState('body','doverh');
+                "></i>
+      </div>
+      <div class="my-4 d-md-none"></div>
+      <nav class="nav-links px-3 px-md-0 t3" style="--hover-color:#fff">
+        <a href="index.html" class="display-block dfont-s app-nav-link mx-1 mb-2 mb-md-0 ">Home</a>
+        <a href="recipes.html" class="display-block dfont-s app-nav-link mx-1 mb-2 mb-md-0">recipes</a>
+        <a href="index.html#contact" class="display-block dfont-s app-nav-link mx-1 mb-2 mb-md-0">Contact</a>
+        <a href="contest.html" class="display-block dfont-s app-nav-link mx-1 mb-2 mb-md-0">Contest</a>
+        <a href="#contact" class="display-block dfont-s app-nav-link mx-1 mb-2 mb-md-0">Announcements</a>
+        <a href="index.html#faq" class="display-block dfont-s app-nav-link mx-1 mb-2 mb-md-0">FAQ</a>
+        <a href="login.html" class="app-btn1 dfont-s">LOGIN</a>
+        <a href="#" class="app-btn1"><i class="fas fa-user"></i></a>
+      </nav>
+    </div>
+    <i id="nav-x" class="d-md-none fas fa-bars d-block p-2 dbor15 t1" onclick="
+                    DOM.addState('nav-container','open');
+                DOM.addState('body','doverh');
+                    "></i>
+  </header>
+  <div class="py-3"></div>
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="my-1 dflex djcsb">
+          <a class="h6 dtdn t4" href="admin.html">
+            <i class="fas fa-user"></i>
+            &nbsp;
+            James Thew
+          </a>
+          <a href="#" class="app-btn1 t3">Logout</a>
+        </div>
+        <h4><b>Write Announcement </b></h4>
+        <div class="col-12 dflex flex-wrap">
+
+          <div class="col-12 p-1"><textarea required name="phone" type="text" rows="5"
+              class="p-2 p-md-3 py-1 py-md-2 rounded bg3 dborn doutn w-100 dinblock mb-2"
+              placeholder="Announcement Message"></textarea></div>
+
+          <div class="col-12 col-md-6 p-1"><input type="submit" name="submitContact" class="app-btn1 dbtn1  w-100 t3"
+              value="SUBMIT"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer bg3 t4 py-4">
+    <div class="container">
+      <div class="row djcsc">
+        <div class="col-12 dflex dfdc djcc dalc mb-3 mb-md-0">
+          <a href="index.html" class="dtdn t4"><img src="img/logo.png" width="100">
+          </a>
+          <h4><b class="t1">James Thew</b></h4>
+          <div class="dflex mt-3">
+            <i class="fs-2 fab fa-facebook d-inline-block mx-2"></i>
+            <i class="fs-2 fab fa-twitter d-inline-block mx-2"></i>
+            <i class="fs-2 fab fa-linkedin d-inline-block mx-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="js/diko.js"></script>
+<script src="js/main.js"></script>
+
+
+</html>

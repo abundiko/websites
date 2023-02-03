@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>James Thew</title>
+  <link rel="stylesheet" href="css/diko.css">
+  <link rel="stylesheet" href="css/diko.animate.css">
+  <link rel="stylesheet" href="css/diko.utils.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body id="body" class="index">
+  <header class="dheader shadow t3 bg04 dbblur10">
+    <a href="index.html"><img src="img/logo.png" width="50">
+    </a>
+    <div class="nav-container " id="nav-container">
+      <div class="dflex w-100 djcsb p-4 d-md-none">
+        <img src="img/logo.png" width="50">
+        <i id=" nav-x" class=" fas fa-close d-block p-2 dbor15 t1" onclick="
+                DOM.remState('nav-container','open');
+                DOM.remState('body','doverh');
+                "></i>
+      </div>
+      <div class="my-4 d-md-none"></div>
+      <nav class="nav-links px-3 px-md-0 t3" style="--hover-color:#fff">
+        <a href="index.html" class="display-block dfont-s app-nav-link mx-1 mb-2 mb-md-0 ">Home</a>
+        <a href="recipes.html" class="display-block dfont-s app-nav-link mx-1 mb-2 mb-md-0">recipes</a>
+        <a href="index.html#contact" class="display-block dfont-s app-nav-link mx-1 mb-2 mb-md-0">Contact</a>
+        <a href="contest.html" class="display-block dfont-s app-nav-link mx-1 mb-2 mb-md-0">Contest</a>
+        <a href="announcement.html" class="display-block dfont-s app-nav-link mx-1 mb-2 mb-md-0">Announcements</a>
+        <a href="index.html#faq" class="display-block dfont-s app-nav-link mx-1 mb-2 mb-md-0">FAQ</a>
+        <a href="login.html" class="app-btn1 dfont-s">LOGIN</a>
+        <a href="#" class="app-btn1"><i class="fas fa-user"></i></a>
+      </nav>
+    </div>
+    <i id="nav-x" class="d-md-none fas fa-bars d-block p-2 dbor15 t1" onclick="
+                    DOM.addState('nav-container','open');
+                DOM.addState('body','doverh');
+                    "></i>
+  </header>
+  <section class="hero dposr bg4">
+    <img src="img/img.jpg" alt="" class="h-100 w-100 dopa5  dobjfc">
+    <div class="container-fluid dposa dt0 dl0">
+      <div class="container hero-main">
+        <div class="row dalc djcc mt-2 mt-md-5">
+          <div class="col-8 col-md-4">
+
+            <img src="img/james.avif" alt="james Thew" class=" rounded-circle dtitle-shadow ">
+          </div>
+          <div class="col-12 col-md-6 t3 ">
+            <h1>
+              Hi! I'm <span class="t2 dtext-shadow">James Thew</span>
+            </h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita eligendi perspiciatis animi commodi
+              quo. Minus nostrum nam aliquam asperiores voluptate?
+            </p>
+            <a href="recipes.html" class="app-btn1 t3">View My recipes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about bg1 py-5">
+    <div class="container">
+      <div class="row t3">
+        <h4><b class="t3">About Me</b></h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum aut tempore inventore similique quidem
+          quos odit atque, facere fugiat ad assumenda quo a? Consequuntur nobis necessitatibus reiciendis. Aut in qui
+          voluptatibus odio delectus consequatur perspiciatis necessitatibus ea, perferendis esse autem similique
+          voluptas explicabo magni molestias, eos debitis eligendi ipsum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum aut tempore inventore similique quidem
+          quos odit atque, facere fugiat ad assumenda quo a? Consequuntur nobis necessitatibus reiciendis. Aut in qui
+          voluptatibus odio delectus consequatur perspiciatis necessitatibus ea, perferendis esse autem similique
+          voluptas explicabo magni molestias, eos debitis eligendi ipsum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum aut tempore inventore similique quidem
+          quos odit atque, facere fugiat ad assumenda quo a? Consequuntur nobis necessitatibus reiciendis. Aut in qui
+          voluptatibus odio delectus consequatur perspiciatis necessitatibus ea, perferendis esse autem similique
+          voluptas explicabo magni molestias, eos debitis eligendi ipsum.</p>
+      </div>
+    </div>
+  </section>
+  <section class="bg3 py-5" id="contact">
+    <div class="container">
+      <div class="row">
+        <h4><b>Contact Information</b></h4>
+        <div class="col-12 col-md-6 dflex flex-wrap djcsa text-center">
+          <div class="col-5 p-1 p-md-3 dflex dfdc djcc dalc">
+            <h1 class="t1 fas fa-phone"></h1>
+            <a class="t1 dtdn" href="tel:911">
+              <p>(+234) 70-6356-1060</p>
+            </a>
+          </div>
+          <div class="col-5 p-1 p-md-3 dflex dfdc djcc dalc">
+            <h1 class="t1 fas fa-envelope"></h1>
+            <a class="t1 dtdn" href="mailto:a@g.com">
+
+              <p>james-thew@gmail.com</p>
+            </a>
+          </div>
+          <div class="col-5 p-1 p-md-3 dflex dfdc djcc dalc">
+            <h1 class="t1 fab fa-facebook"></h1>
+            <a class="t1 dtdn" href="#">
+
+              <p> James Thew</p>
+            </a>
+          </div>
+          <div class="col-5 p-1 p-md-3 dflex dfdc djcc dalc">
+            <h1 class="t1 fab fa-twitter"></h1>
+            <a class="t1 dtdn" href="#">
+
+              <p> James Thew</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <form action="includes/____.php" method="POST" id="contact">
+            <h6>CONTACT FORM</h6>
+            <p>Fill the form below to contact me</p>
+
+            <input required name="name" type="text"
+              class="p-2 p-md-3 py-1 py-md-2 rounded bgf dborn doutn w-100 dinblock mb-2" placeholder="Full Name">
+            <input required name="email" type="email"
+              class="p-2 p-md-3 py-1 py-md-2 rounded bgf dborn doutn w-100 dinblock mb-2" placeholder="Email">
+            <input required name="phone" type="number"
+              class="p-2 p-md-3 py-1 py-md-2 rounded bgf dborn doutn w-100 dinblock mb-2" placeholder="Phone Number">
+            <textarea required name="message"
+              class="p-2 p-md-3 py-1 py-md-2 rounded bgf dborn doutn w-100 dinblock mb-2"
+              placeholder="Message"></textarea>
+            <input type="submit" name="submitContact" class="app-btn1 dbtn1  w-100" value="SUBMIT">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5" id="faq">
+    <div class="container">
+      <div class="row">
+        <h4><b class="t4">FAQ (Frequently Asked Questions)</b></h4>
+        <div class="daccordion">
+          <div class="daccordion-item active p-2 rounded">
+            <div class="daccordion-title fw-bold fs-4">How to become the member of this site?</div>
+            <div class="daccordion-body">
+              <p>To create an account, simply login(the login button is located at the top right corner in the
+                navigation bar). Your email and a password is required to create an account.</p>
+            </div>
+          </div>
+          <div class="daccordion-item p-2 rounded">
+            <div class="daccordion-title fw-bold fs-4">Will there be any subscription charges?</div>
+            <div class="daccordion-body">
+              <p>Yes. There are a number of free recipes but you must login and subscrive to access the premium recipes
+              </p>
+            </div>
+          </div>
+          <div class="daccordion-item p-2 rounded">
+            <div class="daccordion-title fw-bold fs-4">How to view the recipes and tips? Will there be any charges for
+              that?</div>
+            <div class="daccordion-body">
+              <p>My free recipes can be accessed without any charges but you must subscribe and pay to access the
+                premium recipes</p>
+            </div>
+          </div>
+          <div class="daccordion-item p-2 rounded">
+            <div class="daccordion-title fw-bold fs-4"> I am not the registered member of the site. Can I participate in
+              the contest held?</div>
+            <div class="daccordion-body">
+              <p>You must create an account and be a registered user in order to participate in a contest</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer bg3 t4 py-4">
+    <div class="container">
+      <div class="row djcsc">
+        <div class="col-12 dflex dfdc djcc dalc mb-3 mb-md-0">
+          <a href="index.html" class="dtdn t4"><img src="img/logo.png" width="100">
+          </a>
+          <h4><b class="t1">James Thew</b></h4>
+          <div class="dflex mt-3">
+            <i class="fs-2 fab fa-facebook d-inline-block mx-2"></i>
+            <i class="fs-2 fab fa-twitter d-inline-block mx-2"></i>
+            <i class="fs-2 fab fa-linkedin d-inline-block mx-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="js/diko.js"></script>
+<script src="js/main.js"></script>
+
+</html>
