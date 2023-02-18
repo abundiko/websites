@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/diko.css">
+  <link rel="stylesheet" href="css/diko.utils.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body class="my-profile">
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <h2><b>My Profile</b></h2>
+        <div class="col-12 shadow rounded border mt-3 p-3">
+          <div class="daccordion">
+            <div class="daccordion-item p-2 rounded">
+              <div class="daccordion-title py-2 h3 dopa8">Contact Info</div>
+              <div class="daccordion-body">
+                <form action="">
+                  <div class="dflex dfdc mt-3">
+                    <label for="first-name">First Name <sup class="text-danger">*</sup></label>
+                    <input required id="first-name" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+                      placeholder="First Name">
+                  </div>
+                  <div class="dflex dfdc mt-3">
+                    <label for="last-name">Last Name <sup class="text-danger">*</sup></label>
+                    <input required id="last-name" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+                      placeholder="Last Name">
+                  </div>
+                  <div class="dflex dfdc mt-3">
+                    <label for="email">Email <sup class="text-danger">*</sup></label>
+                    <input required id="email" type="email" class="py-2 px-3 dborn doutn bgt border rounded"
+                      placeholder="Email">
+                  </div>
+                  <div class="dflex dfdc mt-3">
+                    <label for="city">City/Town <sup class="text-danger">*</sup></label>
+                    <input required id="city" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+                      placeholder="City/Town">
+                  </div>
+                  <div class="dflex dfdc mt-3">
+                    <label for="phone">Phone Number <sup class="text-danger">*</sup></label>
+                    <input required id="phone" type="" class="py-2 px-3 dborn doutn bgt border rounded"
+                      placeholder="Phone Number">
+                  </div>
+                  <div class="dflex dfdc mt-3">
+                    <label for="country">Country</label>
+                    <input id="country" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+                      placeholder="First Name">
+                  </div>
+                  <div class="dflex dfdc mt-3">
+                    <label for="cell">Cell number</label>
+                    <input id="cell" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+                      placeholder="First Name">
+                  </div>
+                  <div class="dflex dfdc mt-3">
+                    <label for="bio">Bio</label>
+                    <textarea id="bio" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+                      placeholder="First Name" rows="3"></textarea>
+                  </div>
+                  <div class="dflex dfdc mt-3">
+                    <input type="submit" value="Update"
+                      class="py-3 px-3 dborn doutn bgt border rounded bg-primary dmxw200 btn-primary">
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="daccordion-item p-2 rounded">
+              <div class="daccordion-title py-2 h3 dopa8 border-primary border-top">Password Change</div>
+              <div class="daccordion-body">
+                <form action="">
+                  <div class="dflex dfdc mt-3">
+                    <label for="old-password">Old Password <sup class="text-danger">*</sup></label>
+                    <input required id="old-password" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+                      placeholder="Old Password">
+                  </div>
+                  <div class="dflex dfdc mt-3">
+                    <label for="new-password">New Password <sup class="text-danger">*</sup></label>
+                    <input required id="new-password" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+                      placeholder="New Password">
+                  </div>
+                  <div class="dflex dfdc mt-3">
+                    <label for="c-new-password">Confirm New Password <sup class="text-danger">*</sup></label>
+                    <input required id="c-new-password" type="email" class="py-2 px-3 dborn doutn bgt border rounded"
+                      placeholder="Confirm New Password">
+                  </div>
+
+                  <div class="dflex dfdc mt-3">
+                    <input type="submit" value="Update"
+                      class="py-3 px-3 dborn doutn bgt border rounded btn bg-primary dmxw200 btn-primary">
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="daccordion-item p-2 rounded active">
+              <div class="daccordion-title py-2 h3 dopa8 border-primary border-top">Email Settings</div>
+              <div class="daccordion-body">
+                <form class="">
+                  <h6>Change Email Preferences</h6>
+                  <div class="mt-2 bg05 rounded dflex p-2 dalc">
+                    <div class="w-100">
+                      <h6><b class="dopa8">Newsletter</b></h6>
+                      <p class="dfont-s m-0">We'll send information about relevant products and services to help you get
+                        the most from your account.</p>
+                    </div>
+                    <input type="checkbox" name="" id="">
+                  </div>
+                  <div class="mt-2 bg05 rounded dflex p-2 dalc">
+                    <div class="w-100">
+                      <h6><b class="dopa8">Reminder</b></h6>
+                      <p class="dfont-s m-0">We'll remind you about important actions to take. E.g. An investor message is waiting for your response etc.</p>
+                    </div>
+                    <input type="checkbox" name="" id="">
+                  </div>
+                  
+                  <input type="submit" value="Update Email Preferences" class="py-2 mt-2 px-3 dborn doutn bgt border rounded btn bg-primary dmxw300 btn-primary">
+                </form>
+              </div>
+            </div>
+            <div class="daccordion-item p-2 rounded">
+              <div class="daccordion-title py-2 h3 dopa8 border-primary border-top">Delete Account</div>
+              <div class="daccordion-body">
+                <input type="submit" value="Unsubscribe"
+                  class="py-2 mt-2 px-3 dborn doutn bgt border rounded btn  dmxw300 btn-danger">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="js/diko.js"></script>
+
+</html>

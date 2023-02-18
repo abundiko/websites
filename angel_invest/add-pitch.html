@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/diko.css">
+  <link rel="stylesheet" href="css/diko.utils.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body class="add-pitch">
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <h2><b>Add a Pitch</b></h2>
+        <form action="" class="dflex flex-wrap">
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2">
+            <label for="pitch-title">Pitch Title <sup class="text-danger">*</sup></label>
+            <input required id="pitch-title" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+              placeholder="Pitch Title">
+          </div>
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2">
+            <label for="country">Country <sup class="text-danger">*</sup></label>
+            <input required id="country" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+              placeholder="Country">
+          </div>
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2">
+            <label for="location">Location <sup class="text-danger">*</sup></label>
+            <input required id="location" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+              placeholder="Location">
+          </div>
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2">
+            <label for="industry">Industry <sup class="text-danger">*</sup></label>
+            <input required id="industry" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+              placeholder="Industry">
+          </div>
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2">
+            <label for="cell">Cell Number <sup class="text-danger">*</sup></label>
+            <div class="dflex">
+              <input type="text" value="+234" disabled class="d-inline-block bg05 dborn doutn text-center"
+                style="width: 50px;">
+              <input required id="cell" type="text" class="py-2 px-3 dborn doutn bgt border rounded w-100"
+                placeholder="Cell Number">
+            </div>
+          </div>
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2">
+            <label for="stage">Stage <sup class="text-danger">*</sup></label>
+            <input required id="stage" type="text" class="py-2 px-3 dborn doutn bgt border rounded" placeholder="Stage">
+          </div>
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2">
+            <label for="iir">Ideal Investor Role <sup class="text-danger">*</sup></label>
+            <input required id="iir" type="text" class="py-2 px-3 dborn doutn bgt border rounded"
+              placeholder="Ideal Investor Role">
+          </div>
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2 ">
+          </div>
+          <div class="col-12 border-bottom border-primary mt-4"></div>
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2">
+            <label for="previous-round">If you did a previous round, how much did you raise? <sup
+                class="text-danger">*</sup></label>
+            <div class="dflex">
+              <input type="text" value="USD" disabled class="d-inline-block bg05 dborn doutn text-center"
+                style="width: 50px;">
+              <input required id="previous-round" type="number" class="py-2 px-3 dborn doutn bgt border rounded w-100"
+                placeholder="how much did you raise">
+            </div>
+          </div>
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2">
+            <label for="total">How much are you raising in total? <sup
+                class="text-danger">*</sup></label>
+            <div class="dflex">
+              <input type="text" value="USD" disabled class="d-inline-block bg05 dborn doutn text-center"
+                style="width: 50px;">
+              <input required id="total" type="number" class="py-2 px-3 dborn doutn bgt border rounded w-100"
+                placeholder="How much are you raising in total">
+            </div>
+          </div>
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2">
+            <label for="total-raised">How much of this total have you raised? <sup
+                class="text-danger">*</sup></label>
+            <div class="dflex">
+              <input type="text" value="USD" disabled class="d-inline-block bg05 dborn doutn text-center"
+                style="width: 50px;">
+              <input required id="total-raised" type="number" class="py-2 px-3 dborn doutn bgt border rounded w-100"
+                placeholder="How much of this total have you raised">
+            </div>
+          </div>
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2">
+            <label for="min-per-investor">What is the minimum investment per investor? <sup
+                class="text-danger">*</sup></label>
+            <div class="dflex">
+              <input type="text" value="USD" disabled class="d-inline-block bg05 dborn doutn text-center"
+                style="width: 50px;">
+              <input required id="min-per-investor" type="number" class="py-2 px-3 dborn doutn bgt border rounded w-100"
+                placeholder="minimum investment per investor">
+            </div>
+          </div>
+          <div class="col-12 border-bottom border-primary mt-4"></div>
+          <div class="dflex dfdc mt-3 col-12 col-md-6 px-0 px-md-2">
+            <label for="image">Image <sup class="text-danger">*</sup></label>
+            <input required id="image" type="file" class="py-2 px-3 dborn doutn bgt border rounded" placeholder="Image">
+          </div>
+          <div class="dflex dfdc mt-3 col-12 px-0 px-md-2"><input type="submit" value="Submit" class="p-3 dborn doutn bgt border rounded btn bg-primary dmxw200 btn-primary">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

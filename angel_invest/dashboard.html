@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/diko.css">
+  <link rel="stylesheet" href="css/diko.utils.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+  <header class="header py-2 py-md-3 bg5 shadow w-100">
+    <div class="container-fluid px-5">
+      <div class="dflex djcsb dalc">
+        <a href="#"><img src="img/logo.png" alt="..." height="40" width="40"></a>
+        <div class="d-none d-md-flex w-100 ms-2">
+          <div class=" p-1 dflex dalc bg3 dhfit rounded"><i class="fas fa-search d-inline-block mx-2"></i><input
+              type="text" class="bgt dborn px-2 rounded doutn" placeholder="Search"></div>
+        </div>
+        <div class="d-none d-md-flex ms-2">
+          <div href="#" class="d-flex mx-1 dalc nav-link">
+            <a href="explore.html" class="dflex dalc dtdn "><i class="fas d-inline-block me-2 fa-wallet"></i>
+              <span>Invest</span></a>
+            
+          </div>
+        </div>
+        <div class="ms-2">
+          <div class="profile-icon"
+            onclick="window.innerWidth <= 768 ? DOM.toggleState('side-bar','active') : window.location.href='profile.html'">
+            P</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="side-bar h-100 px-3 shadow" id="side-bar">
+    <div class="w-100 h-100 dovera">
+      <div class="dflex djcsb dalc py-3">
+        <a href="#"><img src="img/logo.png" alt="..." height="40" width="40"></a>
+        <i class="fas fa-close" onclick="DOM.remState('side-bar','active')"></i>
+      </div>
+      <div class="daccordion">
+        <div class=" p-2 rounded">
+          <div class=" fs-5"><a href="explore.html" class="dflex dalc dtdn "><i
+                class="fas d-inline-block me-2 fa-wallet"></i>
+              <span>Invest</span></a></div>
+              <div class=" fs-5"><a href="my-profile.html" class="dflex dalc dtdn "><i class="fas d-inline-block me-2 fa-user"></i>
+                  <span>My Profile</span></a></div>
+              <div class=" fs-5 text-danger"><a href="explore.html" class="dflex dalc dtdn text-danger"><i class="fas d-inline-block me-2 fa-door-close"></i>
+                  <span>Logout</span></a></div>
+
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <section class="one py-5">
+      <div class="container">
+        <div class="row djcc">
+          <h2><b>Dashboard</b></h2>
+          <div class="col-11 col-md-4 p-2">
+            <a href="explore.html" class="dashboard-card w-100 text-center d-inline-block t4 dbtn1 p-2 bg05 rounded">
+              <h1><b><i class="fas fa-search"></i></b></h1>
+              <h6>EXPLORE INVESTMENTS</h6>
+            </a>
+          </div><div class="col-11 col-md-4 p-2">
+            <a href="add-pitch.html" class="dashboard-card w-100 text-center d-inline-block t4 dbtn1 p-2 bg05 rounded">
+              <h1><b><i class="fas fa-add"></i></b></h1>
+              <h6>ADD NEW PITCH</h6>
+            </a>
+          </div><div class="col-11 col-md-4 p-2">
+            <a href="my-profile.html" class="dashboard-card w-100 text-center d-inline-block t4 dbtn1 p-2 bg05 rounded">
+              <h1><b><i class="fas fa-pen"></i></b></h1>
+              <h6>EDIT PROFILE</h6>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+<script src="js/diko.js"></script>
+
+</html>

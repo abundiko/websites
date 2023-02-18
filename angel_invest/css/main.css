@@ -1,0 +1,88 @@
+
+.header .nav-drop{
+  position: relative;
+  cursor:pointer;
+}
+.header .nav-link,.header a, .side-bar a{
+  color: var(--c4) !important;
+}
+.header .nav-drop .link-drop-down{
+  position: absolute;top: 40px;
+  right: 0;
+  width: 240px;
+  visibility: hidden;
+  background-color: var(--c5);
+  box-shadow: 0 0 10px #00000055, 0 -3px 2px #fff;
+  z-index: 1;
+  font-weight: bold;
+}
+.header .nav-drop:hover .link-drop-down{
+  visibility: visible;
+  top:40px;
+  transition: all 0s;
+}
+.profile-icon{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--c1);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--c5);
+}
+
+.side-bar{
+  width: min(400px, 90vw);
+  position: fixed;
+  top: 0;
+  left: calc(-1 * min(400px, 90vw));
+  background-color: var(--c5);
+}
+
+.side-bar.active{
+  left: 0;
+}
+.page-heading {
+  height: min(30vh, 300px);
+}
+.page-heading .container-fluid{
+  background-color: #ffffffaa;
+}
+.invest-card{
+  width: clamp(270px, 30vw, 300px);
+  background-color: var(--c5);
+}
+.invest-card ul *{
+  line-height: 0.8;
+}
+.invest-card .logo{
+  left: 30px;
+  bottom: 30px;
+}
+.invest-card .indicator{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 70px;
+  width: 200px;
+  background-color: var(--color);
+  position: absolute;
+  top: -30px;
+  right: -95px;
+  transform: rotate(45deg);
+  font-size: 12px;
+}
+/* css styles for invest.html */
+
+/* css styles for business-proposal.html */
+.business-proposal .one{
+  height: 80vh;
+}
+.business-proposal .one .one-main{
+  background-image: linear-gradient(to bottom, #00000000, #000000);
+}
