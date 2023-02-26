@@ -3,9 +3,7 @@
   max-height:90vh;
   height: fit-content;
 }
-.hero-main, .my-gradient{
-  background-image: linear-gradient(to top, #000, #00000044);
-}
+
 .recipe-card{
   box-shadow: 0 2px 20px #00000055;
   height: 45vh;

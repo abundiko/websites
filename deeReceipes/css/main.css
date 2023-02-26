@@ -1,3 +1,7 @@
+.hero-main,
+.my-gradient {
+  background-image: linear-gradient(to top, #000, #00000044);
+}
 .app-btn1{
   padding: 12px 20px;
   color: initial;
