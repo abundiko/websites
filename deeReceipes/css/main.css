@@ -30,6 +30,7 @@
   box-shadow: 0 2px 20px #000000cc;
 }
 
+
 .recipe-card:hover>div {
   background-image: linear-gradient(to top, #000, #00000000, #00000000);
 }
