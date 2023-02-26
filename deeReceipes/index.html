@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeeRecipes | Home page</title>
+    <link rel="stylesheet" href="css/diko.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/diko.utils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <header class="dheader bg1 t4"><a href="index.php"><img src="img/img1.jpg" width="60"></a>
+        <div class="nav-container " id="nav-container">
+            <div class="dflex w-100 djcsb p-4 d-md-none"><img src="img/img1.jpg" width="60"><i id=" nav-x"
+                    class=" fas fa-close d-block p-2 dbor15 t4" onclick="
+           DOM.remState('nav-container', 'open');
+            DOM.remState('body', 'doverh');  
+            "></i>
+            </div>
+            <div class="my-4 d-md-none"></div>
+            <nav class="nav-links px-3 px-md-0 ">
+                <a onclick="DOM.remState('nav-container', 'open');DOM.remState('body', 'doverh');  " href="index.php"
+                    class="display-block app-nav-link mx-1 mb-2 mb-md-0 ">HOME</a>
+                <a onclick="DOM.remState('nav-container', 'open');DOM.remState('body', 'doverh');  "
+                    href="index.html#about" class="display-block app-nav-link mx-1 mb-2 mb-md-0">ABOUT US</a>
+                <a onclick="DOM.remState('nav-container', 'open');DOM.remState('body', 'doverh');  " href=""
+                    class=" display-block app-nav-link mx-1 mb-2 mb-md-0">RECEIPE</a>
+                <a onclick="DOM.remState('nav-container', 'open');DOM.remState('body', 'doverh');  " href="contact.php"
+                    class="display-block app-nav-link mx-1 mb-2 mb-md-0">CONTACT US</a>
+                <a onclick="DOM.remState('nav-container', 'open');DOM.remState('body', 'doverh');  " href="blog.php"
+                    class="display-block app-nav-link mx-1 mb-2 mb-md-0">REVIEWS</a>
+            </nav>
+        </div><i id="nav-x" class="d-md-none fas fa-bars d-block p-2 dbor15 t3" onclick="
+           DOM.addState('nav-container', 'open');
+            DOM.addState('body', 'doverh');
+            "></i>
+    </header>
+    <section class="hero position-relative ">
+        <img src="img/img1.jpg" class=" h-100 w-100 dz0 position-absolute top-0 left-0" />
+        <div class="container-fluid hero-main dz1 position-absolute top-0 left-0 h-100 w-100">
+            <div class="container dflex  dalc h-100">
+                <div class="row t3">
+                    <h1 class="col-11 col-md-8"><b>
+                            DeeRecipes Lorem ipsum dolor sit amet consectetur.
+                        </b></h1>
+                    <p class="col-11 col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ut impedit
+                        corporis, esse illo, veniam totam neque
+                        deserunt voluptatum est ex quo corrupti velit temporibus dolores iure possimus? Rerum, beatae.
+                        <a href="#">read more...</a>
+                    </p>
+                    <div class="">
+
+                        <a href="#" class="app-btn1 bg1 t3 rounded dbtn1">View My Recipes</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="one py-5">
+        <div class="container">
+            <div class="row">
+                <h2><b>Top Recipes</b></h2>
+                <div class="col-12 p-2 col-sm-6 col-md-3">
+                    <a href="#" class="recipe-card t3 dbor10  doverh dposr dtdn dblock">
+                        <img src="img/img1.jpg" alt="" class="h-100 w-100">
+                        <div class="dflex dfdc h-100 dposa dt0 dl0 justify-content-end">
+                            <div class="details  p-2">
+                                <div class="dflex djcsb">
+                                    <span class="d-inline-block rounded bg-primary px-2">
+                                        <span>23</span>
+                                        <!-- &nbsp;&nbsp; -->
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </span>
+                                    <span class="d-inline-block rounded bg-success px-2">
+                                        lunch
+                                    </span>
+                                </div>
+                                <h4 class="mb-0">Okro Soup</h4>
+                                <p class="mb-1 dopa8 dlh1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Aliquam,
+                                    quo? Voluptatum, facilis!</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 p-2 col-sm-6 col-md-3">
+                    <a href="#" class="recipe-card t3 dbor10  doverh dposr dtdn dblock">
+                        <img src="img/img1.jpg" alt="" class="h-100 w-100">
+                        <div class="dflex dfdc h-100 dposa dt0 dl0 justify-content-end">
+                            <div class="details  p-2">
+                                <div class="dflex djcsb">
+                                    <span class="d-inline-block rounded bg-primary px-2">
+                                        <span>23</span>
+                                        <!-- &nbsp;&nbsp; -->
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </span>
+                                    <span class="d-inline-block rounded bg-success px-2">
+                                        lunch
+                                    </span>
+                                </div>
+                                <h4 class="mb-0">Okro Soup</h4>
+                                <p class="mb-1 dopa8 dlh1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Aliquam,
+                                    quo? Voluptatum, facilis!</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 p-2 col-sm-6 col-md-3">
+                    <a href="#" class="recipe-card t3 dbor10  doverh dposr dtdn dblock">
+                        <img src="img/img2.jpg" alt="" class="h-100 w-100">
+                        <div class="dflex dfdc h-100 dposa dt0 dl0 justify-content-end">
+                            <div class="details  p-2">
+                                <div class="dflex djcsb">
+                                    <span class="d-inline-block rounded bg-primary px-2">
+                                        <span>23</span>
+                                        <!-- &nbsp;&nbsp; -->
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </span>
+                                    <span class="d-inline-block rounded bg-success px-2">
+                                        lunch
+                                    </span>
+                                </div>
+                                <h4 class="mb-0">Okro Soup</h4>
+                                <p class="mb-1 dopa8 dlh1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Aliquam,
+                                    quo? Voluptatum, facilis!</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 p-2 col-sm-6 col-md-3">
+                    <a href="#" class="recipe-card t3 dbor10  doverh dposr dtdn dblock">
+                        <img src="img/img1.jpg" alt="" class="h-100 w-100">
+                        <div class="dflex dfdc h-100 dposa dt0 dl0 justify-content-end">
+                            <div class="details  p-2">
+                                <div class="dflex djcsb">
+                                    <span class="d-inline-block rounded bg-primary px-2">
+                                        <span>23</span>
+                                        <!-- &nbsp;&nbsp; -->
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </span>
+                                    <span class="d-inline-block rounded bg-success px-2">
+                                        lunch
+                                    </span>
+                                </div>
+                                <h4 class="mb-0">Okro Soup</h4>
+                                <p class="mb-1 dopa8 dlh1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Aliquam,
+                                    quo? Voluptatum, facilis!</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 p-2 col-sm-6 col-md-3">
+                    <a href="#" class="recipe-card t3 dbor10  doverh dposr dtdn dblock">
+                        <img src="img/img1.jpg" alt="" class="h-100 w-100">
+                        <div class="dflex dfdc h-100 dposa dt0 dl0 justify-content-end">
+                            <div class="details  p-2">
+                                <div class="dflex djcsb">
+                                    <span class="d-inline-block rounded bg-primary px-2">
+                                        <span>23</span>
+                                        <!-- &nbsp;&nbsp; -->
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </span>
+                                    <span class="d-inline-block rounded bg-success px-2">
+                                        lunch
+                                    </span>
+                                </div>
+                                <h4 class="mb-0">Okro Soup</h4>
+                                <p class="mb-1 dopa8 dlh1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Aliquam,
+                                    quo? Voluptatum, facilis!</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 p-2 col-sm-6 col-md-3">
+                    <a href="#" class="recipe-card t3 dbor10  doverh dposr dtdn dblock">
+                        <img src="img/img1.jpg" alt="" class="h-100 w-100">
+                        <div class="dflex dfdc h-100 dposa dt0 dl0 justify-content-end">
+                            <div class="details  p-2">
+                                <div class="dflex djcsb">
+                                    <span class="d-inline-block rounded bg-primary px-2">
+                                        <span>23</span>
+                                        <!-- &nbsp;&nbsp; -->
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </span>
+                                    <span class="d-inline-block rounded bg-success px-2">
+                                        lunch
+                                    </span>
+                                </div>
+                                <h4 class="mb-0">Okro Soup</h4>
+                                <p class="mb-1 dopa8 dlh1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Aliquam,
+                                    quo? Voluptatum, facilis!</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 p-2 col-sm-6 col-md-3">
+                    <a href="#" class="recipe-card t3 dbor10  doverh dposr dtdn dblock">
+                        <img src="img/img1.jpg" alt="" class="h-100 w-100">
+                        <div class="dflex dfdc h-100 dposa dt0 dl0 justify-content-end">
+                            <div class="details  p-2">
+                                <div class="dflex djcsb">
+                                    <span class="d-inline-block rounded bg-primary px-2">
+                                        <span>23</span>
+                                        <!-- &nbsp;&nbsp; -->
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </span>
+                                    <span class="d-inline-block rounded bg-success px-2">
+                                        lunch
+                                    </span>
+                                </div>
+                                <h4 class="mb-0">Okro Soup</h4>
+                                <p class="mb-1 dopa8 dlh1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Aliquam,
+                                    quo? Voluptatum, facilis!</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 p-2 col-sm-6 col-md-3">
+                    <a href="#" class="recipe-card t3 dbor10  doverh dposr dtdn dblock">
+                        <img src="img/img1.jpg" alt="" class="h-100 w-100">
+                        <div class="dflex dfdc h-100 dposa dt0 dl0 justify-content-end">
+                            <div class="details  p-2">
+                                <div class="dflex djcsb">
+                                    <span class="d-inline-block rounded bg-primary px-2">
+                                        <span>23</span>
+                                        <!-- &nbsp;&nbsp; -->
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </span>
+                                    <span class="d-inline-block rounded bg-success px-2">
+                                        lunch
+                                    </span>
+                                </div>
+                                <h4 class="mb-0">Okro Soup</h4>
+                                <p class="mb-1 dopa8 dlh1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Aliquam,
+                                    quo? Voluptatum, facilis!</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="mt-2 mt-md-3">
+
+                    <a href="#" class="app-btn1 bg1 t3 rounded dbtn1">View More Recipes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="two py-5">
+        <div class="container ">
+            <div class="row px-2 px-md-0">
+                <h2><b class="">Categories</b></h2>
+                <div class="col-6 col-md-3 m-0 p-0 dposr category-card">
+                    <div class="w-100 h-100 bg1 dopa8"></div>
+                    <div class=" dflex djcc dfdc dalc dposa dt0 dl0 w-100 h-100 text-center px-3">
+
+                        <h1>Breakfast</h1>
+                        <p>what is breakfast Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum hic voluptas
+                            voluptatum,</p>
+
+                        <a href="#" class="dmw200 app-btn1 bg1 t3 rounded dbtn1 border border-dark">View </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 m-0 p-0 dposr category-card">
+                    <div class="w-100 h-100 bg1 dopa6"></div>
+                    <div class=" dflex djcc dfdc dalc dposa dt0 dl0 w-100 h-100 text-center px-3">
+
+                        <h1>Breakfast</h1>
+                        <p>what is breakfast Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum hic voluptas
+                            voluptatum,</p>
+
+                        <a href="#" class="dmw200 app-btn1 bg1 t3 rounded dbtn1 border border-dark">View </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 m-0 p-0 dposr category-card">
+                    <div class="w-100 h-100 bg1 dopa4"></div>
+                    <div class=" dflex djcc dfdc dalc dposa dt0 dl0 w-100 h-100 text-center px-3">
+
+                        <h1>Breakfast</h1>
+                        <p>what is breakfast Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum hic voluptas
+                            voluptatum,</p>
+
+                        <a href="#" class="dmw200 app-btn1 bg1 t3 rounded dbtn1 border border-dark">View </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 m-0 p-0 dposr category-card">
+                    <div class="w-100 h-100 bg1 dopa2"></div>
+                    <div class=" dflex djcc dfdc dalc dposa dt0 dl0 w-100 h-100 text-center px-3">
+
+                        <h1>Breakfast</h1>
+                        <p>what is breakfast Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum hic voluptas
+                            voluptatum,</p>
+
+                        <a href="#" class="dmw200 app-btn1 bg1 t3 rounded dbtn1 border border-dark">View </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="three py-5">
+        <div class="container">
+            <div class="row">
+                <h2><b>About </b></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam autem tempore quasi soluta,
+                    eveniet non nulla eos? Nulla, ea suscipit? Maiores eum nobis dolorem ad magnam, ab pariatur eaque
+                    eligendi aperiam dolor impedit, autem consequatur nisi repellat blanditiis totam? Sed voluptate
+                    aperiam, atque illo, vel quis, laborum maxime veniam quibusdam laboriosam consequatur nostrum
+                    corporis eum explicabo deleniti voluptates. Cumque.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam autem tempore quasi soluta,
+                    eveniet non nulla eos? Nulla, ea suscipit? Maiores eum nobis dolorem ad magnam, ab pariatur eaque
+                    eligendi aperiam dolor impedit, autem consequatur nisi repellat blanditiis totam? Sed voluptate
+                    aperiam, atque illo, vel quis, laborum maxime veniam quibusdam laboriosam consequatur nostrum
+                    corporis eum explicabo deleniti voluptates. Cumque.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer py-3 bg01 t3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <a href="#">
+
+                        <img src="img/img1.jpg" width="60">
+                        <h6 class="fw-bold my-1">DeeRecipes</h6>
+                    </a>
+                    <p class="dfont-s">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio doloribus voluptatibus illo
+                        quidem nisi magnam id hic non. Reprehenderit, repellat.
+                    </p>
+                    <div class="dflex">
+                        <i class="fab fa-facebook fs-2 d-inline-block mx-2"></i>
+                        <i class="fab fa-facebook fs-2 d-inline-block mx-2"></i>
+                        <i class="fab fa-facebook fs-2 d-inline-block mx-2"></i>
+                        <i class="fab fa-facebook fs-2 d-inline-block mx-2"></i>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 dflex">
+                    <div class="col-6 col-md-5 dflex dfdc">
+                        <a href="#">Home</a>
+                        <a href="#">Home</a>
+                        <a href="#">Home</a>
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="col-6 col-md-5 dflex dfdc">
+                        <a href="#">Home</a>
+                        <a href="#">Home</a>
+                        <a href="#">Home</a>
+                        <a href="#">Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/diko.js"></script>
+
+</html>

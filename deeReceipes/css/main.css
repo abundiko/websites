@@ -1,0 +1,13 @@
+.app-btn1{
+  padding: 12px 20px;
+  color: initial;
+  text-decoration: none;
+
+}
+.app-btn1:hover{
+  color:initial;
+}
+.footer a{
+  display: inline-block;
+  color: inherit;
+}
