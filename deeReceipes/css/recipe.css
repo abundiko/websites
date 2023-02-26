@@ -3,3 +3,14 @@
   max-height: 60vh;
   height: fit-content;
 }
+
+.recipe-hero{
+  min-height: 70vh;
+}
+.nav-2{
+  top: 70px;
+}
+.feedback-container{
+  max-height: 60vh;
+  overflow-y: auto;
+}

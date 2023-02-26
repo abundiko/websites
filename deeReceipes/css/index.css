@@ -4,21 +4,7 @@
   height: fit-content;
 }
 
-.recipe-card{
-  box-shadow: 0 2px 20px #00000055;
-  height: 45vh;
-}
-.recipe-card>div{
-  background-image: linear-gradient(to top, #000, #00000000);
-}
-.recipe-card:hover{
-  color: var(--c3);
-  transform: scale(1.01);
-  box-shadow: 0 2px 20px #000000cc;
-}
-.recipe-card:hover>div{
-  background-image: linear-gradient(to top, #000, #00000000,#00000000);
-}
+
 .two{
   background-image: url(../img/img2.jpg);
   background-color: #ffffff99;

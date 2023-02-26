@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeeRecipes | Home page</title>
+  <link rel="stylesheet" href="css/diko.css">
+  <link rel="stylesheet" href="css/recipe.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/diko.utils.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+  <header class="dheader bg1 t4"><a href="index.html"><img src="img/img1.jpg" width="60"></a>
+    <div class="nav-container " id="nav-container">
+      <div class="dflex w-100 djcsb p-4 d-md-none"><img src="img/img1.jpg" width="60"><i id=" nav-x"
+          class=" fas fa-close d-block p-2 dbor15 t4" onclick="
+           DOM.remState('nav-container', 'open');
+            DOM.remState('body', 'doverh');  
+            "></i>
+      </div>
+      <div class="my-4 d-md-none"></div>
+      <nav class="nav-links px-3 px-md-0 ">
+        <a onclick="DOM.remState('nav-container', 'open');DOM.remState('body', 'doverh');  " href="index.html"
+          class="display-block app-nav-link mx-1 mb-2 mb-md-0 ">HOME</a>
+        <a onclick="DOM.remState('nav-container', 'open');DOM.remState('body', 'doverh');  " href="index.html#about"
+          class="display-block app-nav-link mx-1 mb-2 mb-md-0">ABOUT US</a>
+        <a onclick="DOM.remState('nav-container', 'open');DOM.remState('body', 'doverh');  " href="recipes.html"
+          class=" display-block app-nav-link mx-1 mb-2 mb-md-0">RECEIPES</a>
+        <a onclick="DOM.remState('nav-container', 'open');DOM.remState('body', 'doverh');  " href="contact.html"
+          class="display-block app-nav-link mx-1 mb-2 mb-md-0">CONTACT US</a>
+      </nav>
+    </div><i id="nav-x" class="d-md-none fas fa-bars d-block p-2 dbor15 t3" onclick="
+           DOM.addState('nav-container', 'open');
+            DOM.addState('body', 'doverh');
+            "></i>
+  </header>
+  <section class="recipe-hero position-relative ">
+    <img src="img/img1.jpg" class=" h-100 w-100 dz0 position-absolute top-0 left-0" />
+    <div class="container-fluid hero-main dz1 position-absolute top-0 left-0 h-100 w-100">
+      <div class="container dflex  dalc h-100">
+        <div class="row t3">
+          <div class="col-11 col-md-8">
+
+            <h1 class=" mt-2 mt-md-4"><b>Okro Soup </b><span
+                class="d-inline-block px-2 bg-success t3 fs-5 dbor10 h6">lunch</span>
+            </h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem numquam asperiores, nesciunt velit,
+              minus
+              dicta soluta aspernatur sed saepe eum, placeat assumenda vero amet! Suscipit, incidunt vel tempore quod
+              consectetur sequi veritatis fugiat culpa enim ad sunt in illum sint!</p>
+
+            <div class="dflex col-12 m-0">
+              <a href="#" class="app-btn1 bg1 t3 rounded dbtn1 position-relative"><i
+                  class="fas fa-thumbs-up"></i>&nbsp;<span>Like</span><span
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                  99+
+                  <span class="visually-hidden">likes</span>
+                </span></a>
+              <div class="px-3"></div>
+              <a href="#feedbacks" class="app-btn1 bg1 t3 rounded dbtn1"><i
+                  class="fas fa-comment"></i>&nbsp;<span>Feedback</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="nav-2 py-2 bg3 dz1 border dflex position-sticky shadow">
+    <a href="#ingredients" class=" ms-2 ms-md-5 btn btn-link d-inline-block me-e t4">Ingredients</a>
+    <a href="#procedures" class="btn btn-link d-inline-block me-e t4">Procedures</a>
+    <a href="#feedbacks" class="btn btn-link d-inline-block me-e t4">Feedbacks</a>
+  </section>
+  <section class="one py-3" id="ingredients">
+    <div class="container">
+      <div class="row">
+        <h4><b>Ingredients</b></h4>
+        <div class="dopa6">
+          <ul class=" dlh2">
+            <li>Okra vegetables</li>
+            <li>Okra vegetables</li>
+            <li>Okra vegetables</li>
+            <li>Okra vegetables</li>
+            <li>Okra vegetables</li>
+            <li>Okra vegetables</li>
+            <li>Okra vegetables</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="one py-3" id="procedures">
+    <div class="container">
+      <div class="row">
+        <h4><b>Procedures</b></h4>
+        <div class="dopa6">
+          <ol class=" dlh2">
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sit in maiores?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sit in maiores?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sit in maiores?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sit in maiores?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sit in maiores?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sit in maiores?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sit in maiores?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sit in maiores?</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="one py-3" id="feedbacks">
+    <div class="container">
+      <div class="row">
+        <h4><b>Feedbacks</b></h4>
+        <div class="feedback-container">
+
+          <div class="col-11 dbor10 bg05 p-2 col-md-7 mb-2">
+            <h6><b>Mary Jordan</b></h6>
+            <p class="dopa8 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nisi dolorem voluptate?
+            </p>
+          </div>
+          <div class="col-11 dbor10 bg05 p-2 col-md-7 mb-2">
+            <h6><b>Mary Jordan</b></h6>
+            <p class="dopa8 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nisi dolorem voluptate?
+            </p>
+          </div>
+          <div class="col-11 dbor10 bg05 p-2 col-md-7 mb-2">
+            <h6><b>Mary Jordan</b></h6>
+            <p class="dopa8 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nisi dolorem voluptate?
+            </p>
+          </div>
+          <div class="col-11 dbor10 bg05 p-2 col-md-7 mb-2">
+            <h6><b>Mary Jordan</b></h6>
+            <p class="dopa8 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nisi dolorem voluptate?
+            </p>
+          </div>
+          <div class="col-11 dbor10 bg05 p-2 col-md-7 mb-2">
+            <h6><b>Mary Jordan</b></h6>
+            <p class="dopa8 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nisi dolorem voluptate?
+            </p>
+          </div>
+          <div class="col-11 dbor10 bg05 p-2 col-md-7 mb-2">
+            <h6><b>Mary Jordan</b></h6>
+            <p class="dopa8 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nisi dolorem voluptate?
+            </p>
+          </div>
+          <div class="col-11 dbor10 bg05 p-2 col-md-7 mb-2">
+            <h6><b>Mary Jordan</b></h6>
+            <p class="dopa8 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nisi dolorem voluptate?
+            </p>
+          </div>
+          <div class="col-11 dbor10 bg05 p-2 col-md-7 mb-2">
+            <h6><b>Mary Jordan</b></h6>
+            <p class="dopa8 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nisi dolorem voluptate?
+            </p>
+          </div>
+          <div class="col-11 dbor10 bg05 p-2 col-md-7 mb-2">
+            <h6><b>Mary Jordan</b></h6>
+            <p class="dopa8 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nisi dolorem voluptate?
+            </p>
+          </div>
+          <div class="col-11 dbor10 bg05 p-2 col-md-7 mb-2">
+            <h6><b>Mary Jordan</b></h6>
+            <p class="dopa8 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nisi dolorem voluptate?
+            </p>
+          </div>
+          <div class="col-11 dbor10 bg05 p-2 col-md-7 mb-2">
+            <h6><b>Mary Jordan</b></h6>
+            <p class="dopa8 m-0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nisi dolorem voluptate?
+            </p>
+          </div>
+        </div>
+        <div class="dflex col-12 col-md-7 m-0 p-2 bg3 dbor10 border mt-2">
+          <input type="text" placeholder="Write Feedback here" class="dborn doutn bgt w-100">
+          <a href="#" class="app-btn1 bg1 t3 rounded dbtn1"><i class="fas fa-paper-plane"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="js/diko.js"></script>
+
+</html>
