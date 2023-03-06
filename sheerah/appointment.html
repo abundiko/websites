@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheerah Vision: Book an Appointment</title>
+  <link rel="stylesheet" href="assets/css/diko.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/diko.animate.css">
+  <link rel="stylesheet" href="assets/css/diko.utils.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body id="body">
+  <header class="dheader header t4" id="header">
+    <a href="index.php"><img src="assets/img/logo.png" width="160"></a>
+    <div class="nav-container " id="nav-container">
+      <div class="dflex w-100 djcsb p-4 d-md-none"><a href="index.php"><img src="assets/img/logo.png" width="160"></a><i
+          id=" nav-x" class=" fas fa-close d-block p-2 dbor15 t1 fs-2" onclick="
+           DOM.remState('nav-container', 'open');
+            DOM.remState('body', 'doverh');
+            "></i>
+      </div>
+      <div class="my-4 d-md-none"></div>
+      <nav class="nav-links px-3 px-md-0 ">
+        <a href="index.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0 ">Home</a>
+        <a href="about.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">About</a>
+        <a href="index.html#services" class="display-block app-nav-link mx-1 mb-2 mb-md-0">Services</a>
+        <a href="gallery.html" class="display-block app-nav-link mx-1 mb-2 mb-md-0">Gallery</a>
+        <a href="index.html#directors" class="display-block app-nav-link mx-1 mb-2 mb-md-0">Directors</a>
+        <a href="index.html#contact" class="display-block app-nav-link mx-1 mb-2 mb-md-0">Contact</a>
+        <a href="appointment.html" class="display-block mx-1 mb-2 mb-md-0 btn btn-primary">Make An Appointment</a>
+      </nav>
+    </div><i id="nav-x" class="d-md-none fas fa-bars d-block p-2 dbor15 t1 fs-2" onclick="
+           DOM.addState('nav-container', 'open');
+            DOM.addState('body', 'doverh');
+            "></i>
+  </header>
+  <div class=" my-4"></div>
+  </section>
+  <section id="about" class=" pt-5">
+    <div class="container">
+      <div class="row dalc djcsa">
+        <h3 class="app-title dposr ">
+          <span>Book Appointment</span>
+          <b class="dposa ">Book Appointment</b>
+        </h3>
+        <p class="dopa5 mb-3">Fill out the form below and we will contact you during our working hours.</p>
+        <form action="" class="col-12 dflex flex-wrap rounded border p-3">
+          <div class="dflex px-2 dfdc col-12 col-md-6">
+            <label for="name">Full Name <span class="text-danger">*</span></label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name Here" required
+              class="d-inline-block p-3 bg3 rounded mt-1 w-100 doutn dborn">
+          </div>
+          <div class="dflex px-2 dfdc col-12 col-md-6">
+            <label for="email">Email <span class="text-danger">*</span></label>
+            <input type="text" name="email" id="email" placeholder="example@gmail.com" required
+              class="d-inline-block p-3 bg3 rounded mt-1 w-100 doutn dborn">
+          </div>
+          <div class="dflex px-2 dfdc col-12 col-md-6">
+            <label for="phone">Phone Number <span class="text-danger">*</span></label>
+            <input type="text" name="phone" id="phone" placeholder="Enter Your Phone number Here" required
+              class="d-inline-block p-3 bg3 rounded mt-1 w-100 doutn dborn">
+          </div>
+          <div class="dflex px-2 dfdc col-12 col-md-6">
+            <label for="date">Date <span class="text-danger">*</span></label>
+            <input type="date" name="date" id="date" placeholder="select preferred Date" required
+              class="d-inline-block p-3 bg3 rounded mt-1 w-100 doutn dborn">
+          </div>
+          <div class="dflex px-2 dfdc col-12 ">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Enter Your Message Here (optional)"
+              class="d-inline-block p-3 bg3 rounded mt-1 w-100 doutn dborn"></textarea>
+          </div>
+          <div class="dflex dfdc col-12 col-md-6 px-2 mt-3">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name Here" required
+              class="btn btn-lg btn-primary w-100 doutn dborn" value="Submit Form">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+    <footer class="footer py-5 shadow bg01 text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-11 col-md-4 p-3">
+            <a href="index.php" class="rounded dflex bgf p-1 djcc">
+              <img src="assets/img/logo.png" width="180">
+            </a>
+            <p class="mb-4 dopa8">
+              <a>No 1 Umez-Eronini Street
+    
+                Ikenegbu layout, Owerri, Imo State Nigeria</a>
+            </p>
+            <p>
+              <a href="tel:+2347064780014"><strong>Phone:</strong> +2347064780014</a>
+              <br>
+              <a href="tel:+2348183635909"><strong>Phone:</strong> +2348183635909</a>
+              <br>
+              <a href="mailto:sheerahvision@yahoo.com"><strong>Email:</strong> sheerahvision@yahoo.com</a>
+              <br>
+              <a href="mailto:sheerahvision.eyeclinic@yahoo.com"><strong>Email:</strong>
+                sheerahvision.eyeclinic@yahoo.com</a>
+            </p>
+          </div>
+          <div class="col-11 col-md-3 p-3">
+            <h6><b class="">Our Services</b></h6>
+            <p class="dopa8 mb-2"><i class="fas fa-chevron-right t1 "></i>&nbsp;Glaucoma Services</p>
+            <p class="dopa8 mb-2"><i class="fas fa-chevron-right t1 "></i>&nbsp;Retina Clinic</p>
+            <p class="dopa8 mb-2"><i class="fas fa-chevron-right t1 "></i>&nbsp;Dry Eye Care</p>
+            <p class="dopa8 mb-2"><i class="fas fa-chevron-right t1 "></i>&nbsp;Pediatric Unit</p>
+            <p class="dopa8 mb-2"><i class="fas fa-chevron-right t1 "></i>&nbsp;Optical Services</p>
+            <p class="dopa8 mb-2"><i class="fas fa-chevron-right t1 "></i>&nbsp;Cataract Services</p>
+          </div>
+          <div class="col-11 col-md-5 p-3">
+            <h6><b class="">Join Our Newsletter</b></h6>
+            <p class="dopa8">Subscribe to our monthly newsletter and updates</p>
+            <form class="dflex  bgf dbor10 p-2">
+              <input type="email" name="name" id="name" placeholder="Enter Your Email Here" required
+                class="d-inline-block  w-100 doutn dborn">
+              <input type="text" name="name" id="name" required class="btn btn-sm btn-primary doutn dborn "
+                style="width: 110px;" value="subscribe">
+            </form>
+    
+          </div>
+        </div>
+    
+      </div>
+    </footer>
+    <section class="last bg0 py-2">
+      <div class="container tf3">
+        <div class="row">
+          <p class="m-0">© Copyright Sheerah. All Rights Reserved</p>
+          <p class="m-0">Designed By <a href="https://abundiko.github.io/portfolio">Abundance</a></p>
+        </div>
+      </div>
+    </section>
+</body>
+<script src="assets/js/diko.js"></script>
+<script src="assets/js/main.js"></script>
+
+</html>
