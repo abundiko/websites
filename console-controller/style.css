@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .4s ease;
+}
+body {
+  font-family: sans-serif;
+}
+body.light {
+  background-color: #eee;
+  color: #111;
+}
+body.dark {
+  background-color: #222;
+  color: #eef;
+}
+main {
+  padding-top: 3em;
+  width: min(90vw, 800px);
+  margin: auto;
+}
+#title {
+  margin-bottom: 1rem;
+}

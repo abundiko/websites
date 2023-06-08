@@ -1,0 +1,7 @@
+.pokemon-card img {
+  height: 40vh;
+  cursor: pointer;
+}
+#modal {
+  backdrop-filter: blur(100px);
+}
